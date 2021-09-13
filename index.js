@@ -5,11 +5,7 @@ const app = express();
 
 app.use(express.json())
 
-//METODOS HTTP 
-//GET - LISTAR
-//POST - CRIAR
-//PUT - ATUALIZAR
-//DELETE - DELETAR
+
 
 const usuarios = []
 
