@@ -1,5 +1,5 @@
 const express = require("express")
-//estou importando a minha biblioteca
+//estou importando framework express
 
 const app = express()
 //atribuindo uma funcao para a varialvel app
@@ -9,4 +9,6 @@ app.use(express.json())
 
 app.listen(3333)
 //abriu uma porta para o servidor
+
+
 
