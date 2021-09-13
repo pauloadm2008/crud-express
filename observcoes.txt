@@ -1,4 +1,19 @@
+obs 1
 npm init -y INICIAR O PROJETO JAVASCRIPT
 npm install express AQUI EU INSTALO O MEU FRAMEWORK EXPRESS
 npm install nodemon PARA EXECUTAR O SCRIP DO SERVIDOR
 npm install uuid FUNCIONALIDADE PARA GERAR ID
+
+obs 2
+passo a passo da github:
+1 git init
+2 git status
+3 git add .
+4 git commit -m "escrever nome do commit"
+5 git branch -M escrever nome da branch
+6 git remote add origin <link_para_o_seu_repositorio>
+7 para o primeiro push deve indicar oque vai subir git push -u origin main
+8 quando ja tiver subido e só dar git push
+
+
+
