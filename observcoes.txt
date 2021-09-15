@@ -6,7 +6,7 @@ npm install uuid FUNCIONALIDADE PARA GERAR ID
 
 obs 2
 passo a passo da github:
-1 git init
+1 git init somente para INICIAR
 2 git status
 3 git add .
 4 git commit -m "escrever nome do commit"
@@ -14,6 +14,11 @@ passo a passo da github:
 6 git remote add origin <link_para_o_seu_repositorio>
 7 para o primeiro push deve indicar oque vai subir git push -u origin main
 8 quando ja tiver subido e só dar git push
+- depois que fez a primeira vez so precisa usar  os topicos 2,3,4,8.
 
-
-
+obs3
+metodos http
+1 get (listar)
+2 post (criar)
+3 put (atualizar)
+4 delete (excluir)
