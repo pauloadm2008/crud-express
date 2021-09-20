@@ -22,3 +22,15 @@ metodos http
 2 post (criar)
 3 put (atualizar)
 4 delete (excluir)
+
+obs4
+para acionar o terminal digitar (npm start)
+
+obs5
+para parar o terminal (control c)
+
+obs6
+para gerar os ids e identificar os usuarios (npm install uuid)
+
+obs7
+v4 e o id que ira ser gerado dentro da biblioteca uuid.
