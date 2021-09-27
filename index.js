@@ -1,6 +1,5 @@
-const { request, response } = require("express")
 const express = require("express")
-//estou importando framework(conjunto de funcionalidades de http) express
+//estou importando framework(conjunto de funcionalidades de http, servidor e outros) express
 
 const {v4} = require("uuid")
 
@@ -31,7 +30,16 @@ app.post("/users", (request, response) => {
 app.put("/users/:id", (request, response) => {
     const {id} = request.params //usado para enviar o id como parametro para identificalo dentro da minha base de dados.
     const {nome, email, senha} = request.body //alem de criar o request.body tambem serve para atualizar.
+
+    const buscarUsuario = usuario.findIndex(usuario => usuario.id === id)
+
+    if(buscarUsuario < 0){
+        return response.status(400).json({ error: "usuario nao encontrado"})
+    }
+
+
     })
+
 
 
 

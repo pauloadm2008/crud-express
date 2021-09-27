@@ -34,3 +34,13 @@ para gerar os ids e identificar os usuarios (npm install uuid)
 
 obs7
 v4 e o id que ira ser gerado dentro da biblioteca uuid.
+
+obs8
+request: de onde vem as requisições 
+    1 request.params: serve para passar parametros de busca, por exemplo (id,cpf,email,etc...)
+    2 request.body: aonde fica armazenada as informações que estão vindo do front para o back end.
+response: como retorna o evento
+
+
+obs9
+findIndex é uma função usado para procurar uma informação dentro do banco de dados.
